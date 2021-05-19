@@ -1,0 +1,20 @@
+{
+  "name": "burritobot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerrit Fischer",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/mysql": "^1.1.4",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "fast-csv": "^4.3.6",
+    "fs": "0.0.1-security",
+    "keyv": "^4.0.3",
+    "node-fetch": "^2.6.1"
+  }
+}
