@@ -1,6 +1,6 @@
 //number guessing
 const Keyv = require('keyv');
-const keyv = new Keyv('mysql://root:s35Fpopa788@localhost:3306/burritobot');
+const keyv = new Keyv('--put database here--');
 const Discord = require('discord.js');
 const numberGuessing = require("./../games/numberGuessing");
 var instances = [];
